@@ -1,4 +1,4 @@
-<?php$totalCorrect = 0;
+<?php
 $totalCorrect = 0;
 
 if(isset($_POST['question-1-answers']))

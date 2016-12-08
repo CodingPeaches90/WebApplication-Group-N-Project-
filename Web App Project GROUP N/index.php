@@ -75,7 +75,7 @@ echo "Your session is running " . $_SESSION['username'];
       </div>
       <div id="container">
           <div class = "jumbotron">
-              <h1 class="text-center"><a href="CSS Resource Page 2.0/index.html">Learn CSS!</a></h1>
+              <h1 class="text-center"><a href="cssresource.php">Learn CSS!</a></h1>
               <p>
                   Want to learn some CSS? Follow the image to learn about the history and see some examples of CSS in action!
 

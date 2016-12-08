@@ -27,7 +27,7 @@ echo "Your session is running " . $_SESSION['username'];
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   
-    <link href="mainpage.css" rel="stylesheet">
+    <link href="cssresource.css" rel="stylesheet">
 
 </head>
 
@@ -56,7 +56,7 @@ echo "Your session is running " . $_SESSION['username'];
       <div id="container">
           <div class ="jumbotron">
               <h1 class="text-center">Welcome to CSS Resource Page!</h1>
-              <img src="CSS%20Icon.png" align="middle">
+              <img src="./images/CSS%20Icon.png" align="middle">
               <p> 
 				This page is setup to help people learn everything about CSS.
               </p>
@@ -103,11 +103,11 @@ echo "Your session is running " . $_SESSION['username'];
           <h1 class="text-center">Examples</h1>
           <div class="jumbotron">
               <h2>CSS Colors</h2>
-              <img src="css-syntax.gif" alt="CSS Syntax" height="400" width="33%">
+              <img src="./images/css-syntax.gif" alt="CSS Syntax" height="400" width="33%">
               <h2>CSS Backgorund</h2>
-              <img src="CSS%20Background.gif" alt="CSS Background" height="400" width="33%">
+              <img src="./images/CSS%20Background.gif" alt="CSS Background" height="400" width="33%">
               <h2>CSS Borders</h2>
-              <img src="CSS%20Borders.gif" alt="CSS Borders" height="400" width="33%">
+              <img src="./images/CSS%20Borders.gif" alt="CSS Borders" height="400" width="33%">
               <hr>
           </div>
       </div>

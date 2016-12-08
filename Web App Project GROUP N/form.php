@@ -18,7 +18,7 @@ if(isset($_POST['emailaddress'])){
       // assign our session to the email address that was enetered
       $_SESSION['username']=$emailaddress;
       // redirect our user to the main page
-       header("Location: secure.php");
+       header("Location: index.php");
       // exit loop
       exit();
     }

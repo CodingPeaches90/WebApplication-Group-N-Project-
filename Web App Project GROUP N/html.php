@@ -1,12 +1,14 @@
 <?php
 require "check.php";
 // continue the session on this page 
+if(!isset($_SESSION)){
 session_start();
+}
 // code from this link helped
 //http://stackoverflow.com/questions/2542427/how-do-i-continue-a-session-from-one-page-to-another-with-php
 if(isset($_SESSION['username'])) {
   // if the sesssion is running output this
-echo "Your session is running " . $_SESSION['username'];
+//echo "Your session is running " . $_SESSION['username'];
 }
 
 ?>

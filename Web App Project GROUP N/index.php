@@ -1,7 +1,10 @@
 <?php
 require "check.php";
 // continue the session on this page 
+if(!isset($_SESSION)){
+	// IF THE SESSION IS NOT RUNNING DO THIS
 session_start();
+}
 // code from this link helped
 //http://stackoverflow.com/questions/2542427/how-do-i-continue-a-session-from-one-page-to-another-with-php
 if(isset($_SESSION['username'])) {
@@ -47,7 +50,7 @@ echo "Your session is running " . $_SESSION['username'];
     <nav class="navbar navbar-default" role="navigation">
         <div class="container-fluid">
             <ul class="nav nav-pills pull-right"> 
-            <li role="presentation" class="active" onclick="return confirm('Are you sure you want to logout?')"><a href="#">Logout</a></li>
+            <li role="presentation" class="active" onclick="window.location='logout.php';"><a href="#">Logout</a></li>
           </ul> 
         </div>
    </nav>
@@ -55,7 +58,7 @@ echo "Your session is running " . $_SESSION['username'];
      
       <div id="container">
           <div class ="jumbotron">
-              <h1 class="text-center">Welcome!</h1>
+              <h1 class="text-center">Welcome! <?php  echo  $_SESSION['username']; ?></h1>
               <p> 
 				This page is setup to help people learn about how pages are put together using HTML and CSS.
               </p>

@@ -67,7 +67,7 @@ echo "Your session is running " . $_SESSION['username'];
       </div>
       <div id="container">
             <div class="jumbotron">
-            <h1 class="text-center"><a href>Learn HTML!</a></h1>      
+            <h1 class="text-center"><a href="html.php">Learn HTML!</a></h1>      
             <p>Want to learn about HTML? Click the text to proceed to our HTML resource page!</p>
                 <hr>
 			<h3 class="text-center"><a href="htmlQuiz.php">Take The Quiz Now</a></h1>

@@ -7,7 +7,7 @@
     /*
     margin to center the jumbotron fam
     */
-    
+    text-align: center;
     margin-bottom: 30px;
     margin-left: 32px;
     margin-right: 32px;
@@ -30,7 +30,7 @@
     margin-bottom: 30px;
     margin-left: 32px;
     margin-right: 32px;
-	border-radius: 15px;
+		border-radius: 15px;
 }
 
 .container{
@@ -61,21 +61,20 @@ body{
 	margin-top: 20px
 }
 
-footer{
- 
-
-}
 h1{
     text-align: center;
     color: white;
 }
+
 p{
-    text-align: center;
+  
     color: white;
-    font-size: 20px;
+    font-size: 20px;	
+		text-align: center;
+  	 padding: 50px 30px 50px 80px;
 }
 
-h2.{
+h2{
     color: white;
     text-align: center;
 }
@@ -87,3 +86,4 @@ img{
     display:block;
     margin:auto;
 }
+

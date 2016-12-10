@@ -1,14 +1,12 @@
 <?php
 require "check.php";
 // continue the session on this page 
-if(!isset($_SESSION)){
 session_start();
-}
 // code from this link helped
 //http://stackoverflow.com/questions/2542427/how-do-i-continue-a-session-from-one-page-to-another-with-php
 if(isset($_SESSION['username'])) {
   // if the sesssion is running output this
-//echo "Your session is running " . $_SESSION['username'];
+echo "Your session is running " . $_SESSION['username'];
 }
 
 ?>
@@ -101,19 +99,22 @@ if(isset($_SESSION['username'])) {
           <h1>Elements</h1>
           <div class="jumbotron1">
 							<h2>Tags</h2>
-							<code>&lt;h1&gt;</code> <h1> h1 Header</h1> <br> 
-						<code>&lt;h2&gt; </code> <h2> h2 Header</h2> <br> 
-						<code>&lt;h3&gt;</code> <h3> h3 Header</h3> <br> 
-						<code>&lt;h4&gt;</code> <h4> h4 Header</h4> <br>
-						<code>&lt;img&gt;</code> Image tag<br>
+						<p>
+							
 						
-              <h2>Text manipulation</h2>
-              <code>&lt;br&gt;</code> Carriage return<br>
-							<code>&lt;p&gt;</code> paragraph<br>
-							<code>&lt;hr&gt;</code> Line break<br>
+						<code>&lt;h1&gt;</code> <font size="7">Header</font> <code>&lt;/h1&gt;</code><br><br> 
+						<code>&lt;h2&gt;</code> <font size="6">Header</font> <code>&lt;/h2&gt;</code><br><br> 
+						<code>&lt;h3&gt;</code> <font size="5">Header</font> <code>&lt;/h3&gt;</code><br><br> 
+						<code>&lt;h4&gt;</code> <font size="4">Header</font> <code>&lt;/h3&gt;</code><br><br> 
+						<code>&lt;img&gt;</code> Image tag<br><br> 
+						
+              <h2>Text manipulation</h2><br> 
+              <code>&lt;br&gt;</code> Carriage return<br><br> 
+							<code>&lt;p&gt;</code> paragraph<br><br> 
+							<code>&lt;hr&gt;</code> Line break<br><br> 
              
-						<h2>Decoration</h2>
-              
+						<h2>Decoration</h2><br> 
+						<code>&lt;body style="background-color:magenta;"&gt;</code> Changing background colour <br> <br> </p>
               <hr>
           </div>
       </div>

@@ -119,6 +119,7 @@ if(isset($_SESSION['username'])) {
 							<code>&lt;body style="background-color:magenta;"&gt;</code> Changing background colour <br> <br> 
 						</p>
               <hr>
+						<h2><a href="htmlQuiz.php">Take The Quiz Now</a></h2>
           </div>
       </div>
       

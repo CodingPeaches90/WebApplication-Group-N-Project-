@@ -110,7 +110,8 @@ if(isset($_SESSION['username'])) {
               <img src="./images/CSS%20Background.gif" alt="CSS Background" height="400" width="33%">
               <h2>CSS Borders</h2>
               <img src="./images/CSS%20Borders.gif" alt="CSS Borders" height="400" width="33%">
-              <hr>
+                <hr>
+						<h2><a href="cssQuiz.php">Take The Quiz Now</a></h2>
           </div>
       </div>
       

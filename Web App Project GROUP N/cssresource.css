@@ -60,23 +60,17 @@ body{
 	margin-right: 16px;
 	margin-top: 20px
 }
-
-h1{
+h1, h2{
+	 color: white;
     text-align: center;
     color: white;
 }
-
 p{
   
     color: white;
     font-size: 20px;	
 		text-align: center;
   	 padding: 50px 30px 50px 80px;
-}
-
-h2{
-    color: white;
-    text-align: center;
 }
 
 li{

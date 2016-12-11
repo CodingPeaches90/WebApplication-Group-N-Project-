@@ -1,0 +1,24 @@
+.jumbotron{
+   
+ 
+  	color: white;
+	background-color: #18314f;
+	/*
+  margin to center the jumbotron fam
+  */
+	margin-bottom: 30px;
+	margin-left: 32px;
+	margin-right: 32px;
+	border-radius: 15px;
+}
+body{
+	margin: 20px;
+	padding: 170px;
+	font-family: arial;
+	color: white !important;
+	background-color: #0d0630 !important;}
+#container{
+     background-color: #0d0630;
+    padding-top: 80px;
+  background-color: white;
+}

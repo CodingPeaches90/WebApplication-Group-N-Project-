@@ -7,19 +7,23 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <link href="form.css" rel="stylesheet">
+    <link href="goodbye.css" rel="stylesheet">
 
   </header>
   <body>
     <!--  user will be redirected to this page when they logout-->
     <!-- give the user the option to go back to the form.php-->
+    
     <div id = "comtainer">
       <div class="jumbotron text-center">
-         <p>
-           We are sad to see you go
-        </p>
-      </div>
-    </div>
-  </body>
+        <h2>
+          Goodbye!
+        </h2>
+
+        <hr>
+           <p>
+              <a href="form.php">Log back in!</a>
+           </p>
+      </body>
  
 </html>

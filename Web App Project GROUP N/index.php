@@ -9,7 +9,7 @@ session_start();
 //http://stackoverflow.com/questions/2542427/how-do-i-continue-a-session-from-one-page-to-another-with-php
 if(isset($_SESSION['username'])) {
   // if the sesssion is running output this
-echo "Your session is running " . $_SESSION['username'];
+//echo "Your session is running " . $_SESSION['username'];
 }
 
 $email = $_SESSION['username'];

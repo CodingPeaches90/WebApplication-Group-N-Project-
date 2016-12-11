@@ -1,3 +1,7 @@
+<?php
+require "check.php";
+
+?>
 <html>
   <head>
     <title>Quiz</title>

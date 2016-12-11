@@ -19,8 +19,6 @@ if(isset($_POST["submit"])){
   $xml->asXML('./data/users.xml');
   header('Location: form.php');
   
-}else{
-  echo "nothing happened?";
 }
 
 ?>

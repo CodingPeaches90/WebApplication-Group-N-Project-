@@ -61,7 +61,7 @@ $username = strstr($email, '@', true); //"username"
      
       <div id="container">
           <div class ="jumbotron">
-              <h1 class="text-center">Welcome! <?php  echo  $username; ?></h1>
+              <h1 class="text-center">Welcome <?php  echo  $username; ?>!</h1>
               <p> 
 				This page is setup to help people learn about how pages are put together using HTML and CSS.
               </p>
